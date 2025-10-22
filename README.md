@@ -3,7 +3,7 @@
 A full-stack web application to manage inventory of products across multiple warehouses. Built with Python and Flask for the backend and **React** for the frontend.
 
 ## Table og Contents
--[About](#about)
+- [About](#about)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Database Design](#database-design)
@@ -16,21 +16,31 @@ This project is an Inventory Management System built with Python and Flask (back
 
 ## Features
   **Dashboard**
-  
+   This is display the total number of products and locations and movements of products.
+
+   
   **Products**
     Add Products: Add new products to the system with product_id and name.
     Edit Products: Update product details if there are changes.
     View Products: See a list of all products in the inventory.
+
+    
   **Locations (Warehouses)**
     Add Locations: Add new warehouses or storage locations with location_id and name.
     Edit Locations: Update warehouse details.
     View Locations: View all existing locations in the system.
+
+    
   **Product Movements**
     Record Movements: Track product movements between locations, including product,from_location, to_location, uantity and date.
     Edit Movements: Modify movement details if needed.
     View Movements: See the history of product movements.
+
+    
   **Report**
     See current stock of each product in each location in a grid view with columns: Product, Warehouse, Quantity.
+
+    
 
 ## Tech Stack
 Frontend : React, Axios, HTML, CSS
@@ -55,11 +65,11 @@ Other Tools : Postman, XAMPP, Git, Github
    Quantity
 
 ## Installation
-### 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/SanthiyaVijayakumar/Inventory-Management-System.git
 cd Inventory-Management-System
 
-### 2. Backend (Flash)
+## 2. Backend (Flash)
 cd inventory-backend
 # Create a virtual environment
 python -m venv venv
@@ -71,7 +81,7 @@ pip install -r requirements.txt
 # Run the Flask server
 python app.py
 
-### 3. Frontend (React)
+## 3. Frontend (React)
 cd inventory-frontend
 # Install dependencies
 npm install
