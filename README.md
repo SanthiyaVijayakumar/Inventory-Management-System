@@ -94,6 +94,7 @@ npm install
 
 # Start frontend server
 npm start
+```
 
 ## Use Cases
 1. **Create Products**
