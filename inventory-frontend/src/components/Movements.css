@@ -1,0 +1,80 @@
+.movement-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.movement-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movement-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.movement-input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.movement-add-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movement-add-btn:hover {
+  background-color: #45a049;
+}
+
+.movement-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.movement-table th,
+.movement-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.movement-table th {
+  background-color: #f2f2f2;
+}
+
+.movement-edit-btn {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.movement-delete-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.movement-edit-btn:hover {
+  background-color: #1976d2;
+}
+
+.movement-delete-btn:hover {
+  background-color: #d32f2f;
+}
