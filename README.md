@@ -71,21 +71,21 @@ cd Inventory-Management-System
 
 ## 2. Backend (Flash)
 cd inventory-backend
-# Create a virtual environment
+Create a virtual environment
 python -m venv venv
-# Activate environment
-# Windows
+Activate environment
+Windows
 venv\Scripts\activate
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
-# Run the Flask server
+Run the Flask server
 python app.py
 
 ## 3. Frontend (React)
 cd inventory-frontend
-# Install dependencies
+Install dependencies
 npm install
-# Start frontend server
+Start frontend server
 npm start
 
 ## Use Cases
