@@ -39,7 +39,7 @@ This project is an Inventory Management System built with Python and Flask (back
 ## Tech Stack
 - **Frontend:** React, Axios, HTML, CSS  
 - **Backend:** Python, Flask  
-- **Database:** MySQL / SQL  
+- **Database:** SQL  
 - **Other Tools:** Postman, XAMPP, Git, GitHub
 
 ## Database Design
