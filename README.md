@@ -9,7 +9,6 @@ A full-stack web application to manage inventory of products across multiple war
 - [Database Design](#database-design)
 - [Installation](#installation)
 - [Use Cases](#use-cases)
-- [Screenshots](#screenshots)
 
 ## About
 This project is an Inventory Management System built with Python and Flask (backend) and React (frontend). It helps track products across multiple warehouse locations and manage product movements efficiently.
